@@ -8,9 +8,10 @@ import (
 func main() {
 
 	// 测试Slice工具包
-	tmp := []int{1, 2, 3, 4, 5, 2, 2}
-	res := Slice.Filter(tmp, 2)
-	for _, val := range res {
-		fmt.Printf("%d ", val)
-	}
+	s1 := []int{1, 2, 3, 4, 5}
+	s2 := []int{4, 5, 7, 6}
+	//fmt.Printf("%+v", )
+	fmt.Printf("%+v\n", Slice.Union[int](s1, s2))
+	fmt.Printf("%+v\n", s1)
+	fmt.Printf("%+v\n", s2)
 }
