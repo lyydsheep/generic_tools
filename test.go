@@ -8,10 +8,5 @@ import (
 func main() {
 
 	// 测试Slice工具包
-	s1 := []int{1, 2, 3, 4, 5}
-	s2 := []int{4, 5, 7, 6}
-	//fmt.Printf("%+v", )
-	fmt.Printf("%+v\n", Slice.Union[int](s1, s2))
-	fmt.Printf("%+v\n", s1)
-	fmt.Printf("%+v\n", s2)
+	fmt.Printf("%+v", Slice.Intersection[int]([]int{1, 2, 3, 4, 5}, []int{1, 2, 2, 2, 5, 6}))
 }
