@@ -1,4 +1,4 @@
-package Slices
+package Slice
 
 //Union 求两个切片的并集
 //参数：s1第一个切片，s2第二个切片

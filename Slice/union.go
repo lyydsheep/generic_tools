@@ -1,6 +1,6 @@
 package Slice
 
-import "github.com/lyydsheep/generic_tools/internal/Slices"
+import "github.com/lyydsheep/generic_tools/internal/Slice"
 
 //Union 求两个切片的并集
 //参数：s1第一个切片，s2第二个切片
@@ -8,5 +8,5 @@ import "github.com/lyydsheep/generic_tools/internal/Slices"
 //说明：结果不含重复元素
 
 func Union[T comparable](s1, s2 []T) (res []T) {
-	return Slices.Union[T](s1, s2)
+	return Slice.Union[T](s1, s2)
 }

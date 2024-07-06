@@ -1,4 +1,4 @@
-package Slices
+package Slice
 
 func Intersection[T comparable](s1 []T, s2 []T) (res []T) {
 	s1 = Filter[T](s1)

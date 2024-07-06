@@ -1,4 +1,4 @@
-package Slices
+package Slice
 
 //Search 查找切片中的指定元素
 //参数：s 切片， val 要查找的元素

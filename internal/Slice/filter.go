@@ -1,4 +1,4 @@
-package Slices
+package Slice
 
 //Filter 过滤切片中的指定元素
 //参数：s 切片，val 要过滤的元素值
