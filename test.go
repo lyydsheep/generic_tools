@@ -8,5 +8,7 @@ import (
 func main() {
 
 	// 测试Slice工具包
-	fmt.Printf("%+v", Slice.Intersection[int]([]int{1, 2, 3, 4, 5}, []int{1, 2, 2, 2, 5, 6}))
+	fmt.Println(Slice.Map[int, int]([]int{1, 2, 3, 4}, func(i int) int {
+		return i * 2
+	}))
 }
